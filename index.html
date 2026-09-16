@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
-        content="Amal Ben Khelifa — Software Engineer | Business Analysis | Project Coordination"
+        content="Amal Ben Khelifa — Software Engineer | Business Analysis | Project Coordination | Application Support"
     >
 
-    <title>Amal Ben Khelifa | Portfolio</title>
+    <title>Amal Ben Khelifa | Software Engineer & IT Projects</title>
 
-    <!-- Google Fonts -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -27,9 +26,9 @@
 
 <body>
 
-<!-- =========================
+<!-- =========================================================
      NAVIGATION
-========================= -->
+========================================================= -->
 
 <header class="navbar">
 
@@ -40,7 +39,7 @@
             <span>· Portfolio</span>
         </a>
 
-        <nav class="nav-links">
+        <nav class="nav-links" id="navLinks">
             <a href="#about">About</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
@@ -48,20 +47,38 @@
             <a href="#contact">Contact</a>
         </nav>
 
-        <a href="#contact" class="nav-contact">
-            Let's talk
-        </a>
+        <div class="nav-actions">
+
+            <a href="#contact" class="nav-contact">
+                Let's talk
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
 
     </div>
 
 </header>
 
 
-<!-- =========================
-     HERO
-========================= -->
+<!-- =========================================================
+     MAIN
+========================================================= -->
 
 <main>
+
+<!-- =========================================================
+     HERO
+========================================================= -->
 
 <section id="home" class="hero">
 
@@ -70,7 +87,7 @@
         <div class="hero-intro">
 
             <p class="small-label">
-                SOFTWARE ENGINEER · BUSINESS ANALYSIS
+                SOFTWARE ENGINEER · BUSINESS ANALYSIS · IT PROJECTS
             </p>
 
             <h1>
@@ -80,14 +97,15 @@
             </h1>
 
             <p class="hero-text">
-                Software Engineer with experience in application development,
-                project coordination and production support.
+                Software Engineer with 5 years of experience across
+                software delivery, requirements analysis, project coordination
+                and application support in an international environment.
             </p>
 
             <div class="hero-buttons">
 
-                <a href="#projects" class="button button-primary">
-                    View my work
+                <a href="#experience" class="button button-primary">
+                    Explore my experience
                 </a>
 
                 <a href="#contact" class="button button-secondary">
@@ -99,36 +117,48 @@
         </div>
 
 
-        <!-- Creative identity element -->
+        <!-- Professional positioning -->
 
         <div class="flow">
 
             <div class="flow-item">
+
                 <span>01</span>
-                <strong>Business</strong>
+
+                <strong>Understand</strong>
+
                 <small>
-                    Requirements · Analysis · Stakeholders
+                    Requirements · Business needs · Stakeholders
                 </small>
+
             </div>
 
             <div class="flow-line"></div>
 
             <div class="flow-item active">
+
                 <span>02</span>
-                <strong>Technology</strong>
+
+                <strong>Connect</strong>
+
                 <small>
-                    Java · Angular · APIs
+                    Business · Technology · Agile delivery
                 </small>
+
             </div>
 
             <div class="flow-line"></div>
 
             <div class="flow-item">
+
                 <span>03</span>
-                <strong>Delivery</strong>
+
+                <strong>Deliver</strong>
+
                 <small>
-                    Agile · Testing · Support
+                    Testing · Deployment · Support · Improvement
                 </small>
+
             </div>
 
         </div>
@@ -143,9 +173,9 @@
 </section>
 
 
-<!-- =========================
+<!-- =========================================================
      ABOUT
-========================= -->
+========================================================= -->
 
 <section id="about" class="section">
 
@@ -156,25 +186,32 @@
             <h2>About</h2>
         </div>
 
+
         <div class="about-grid">
 
             <div>
 
                 <p class="intro-text">
-                    I am a Software Engineer who enjoys understanding
-                    the problem before building the solution.
+                    I enjoy understanding the problem before building
+                    the solution.
                 </p>
 
                 <p>
-                    My experience combines software development,
+                    My experience combines software engineering,
                     business requirements analysis, project coordination
                     and application support.
                 </p>
 
                 <p>
-                    I have worked with technical and business stakeholders
-                    in Agile environments, contributing from requirements
-                    gathering to testing, deployment and production support.
+                    I have worked closely with business and technical
+                    stakeholders in Agile environments, contributing across
+                    the project lifecycle — from requirements and specifications
+                    to testing, deployment and production support.
+                </p>
+
+                <p>
+                    My technical background helps me translate business needs
+                    into practical and reliable technology solutions.
                 </p>
 
             </div>
@@ -188,8 +225,13 @@
                 </div>
 
                 <div>
+                    <span>Focus</span>
+                    <strong>Business & Technology</strong>
+                </div>
+
+                <div>
                     <span>Experience</span>
-                    <strong>Software Engineering</strong>
+                    <strong>5 years</strong>
                 </div>
 
                 <div>
@@ -206,9 +248,9 @@
 </section>
 
 
-<!-- =========================
+<!-- =========================================================
      EXPERIENCE
-========================= -->
+========================================================= -->
 
 <section id="experience" class="section section-soft">
 
@@ -219,6 +261,8 @@
             <h2>Experience</h2>
         </div>
 
+
+        <!-- Sofrecom -->
 
         <article class="experience">
 
@@ -233,32 +277,70 @@
                 </p>
 
                 <h3>
-                    Development Engineer
+                    Software Engineer · Application Support
                 </h3>
 
-                <p>
-                    Worked on enterprise applications and Orange's
-                    Echat messaging platform in collaboration with
-                    teams in Tunisia, France and LivePerson UK.
+                <p class="experience-lead">
+                    Contributed to the evolution and production support
+                    of Orange France digital customer solutions, working
+                    across business analysis, project coordination,
+                    development and application support.
                 </p>
+
+                <div class="experience-highlights">
+
+                    <div>
+                        <span>01</span>
+                        <strong>Requirements & Analysis</strong>
+                        <p>
+                            Gathered and analyzed business needs,
+                            translated requirements into functional
+                            and technical specifications, and coordinated
+                            with Orange France stakeholders.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <strong>Project Delivery</strong>
+                        <p>
+                            Followed initiatives from requirements through
+                            development, testing and production deployment
+                            in an Agile environment.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <strong>Application Support</strong>
+                        <p>
+                            Investigated incidents and production issues,
+                            coordinated with development and QA teams,
+                            and contributed to root cause analysis.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>04</span>
+                        <strong>Digital & Conversational Solutions</strong>
+                        <p>
+                            Contributed to Orange Messaging and conversational
+                            experiences across Orange and Sosh digital channels.
+                        </p>
+                    </div>
+
+                </div>
 
                 <div class="experience-points">
 
-                    <span>
-                        Business requirements
-                    </span>
-
-                    <span>
-                        Project coordination
-                    </span>
-
-                    <span>
-                        Application support
-                    </span>
-
-                    <span>
-                        Java & Angular development
-                    </span>
+                    <span>Business Analysis</span>
+                    <span>Project Coordination</span>
+                    <span>Application Support</span>
+                    <span>Agile / Scrum</span>
+                    <span>Java</span>
+                    <span>Angular</span>
+                    <span>REST APIs</span>
+                    <span>Jira</span>
 
                 </div>
 
@@ -266,6 +348,8 @@
 
         </article>
 
+
+        <!-- Dotcom -->
 
         <article class="experience">
 
@@ -280,20 +364,18 @@
                 </p>
 
                 <h3>
-                    Summer Internship
+                    Web Development Intern
                 </h3>
 
                 <p>
                     Designed and developed a web application helping
-                    recruiters find students looking for internships.
+                    recruiters connect with students looking for internships.
                 </p>
 
                 <div class="experience-points">
-
                     <span>Angular</span>
                     <span>Node.js</span>
                     <span>MongoDB</span>
-
                 </div>
 
             </div>
@@ -305,9 +387,9 @@
 </section>
 
 
-<!-- =========================
+<!-- =========================================================
      PROJECTS
-========================= -->
+========================================================= -->
 
 <section id="projects" class="section">
 
@@ -324,32 +406,51 @@
 
             <!-- Echat -->
 
-            <article class="project">
+            <article class="project project-featured">
 
-                <div class="project-number">
-                    01
+                <div class="project-top">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <p class="project-category">
+                        ORANGE · DIGITAL · AI
+                    </p>
+
                 </div>
 
                 <div>
 
-                    <p class="project-category">
-                        ORANGE · ENTERPRISE
-                    </p>
-
                     <h3>
-                        Echat
+                        Orange Messaging
                     </h3>
 
                     <p>
-                        A unified instant messaging platform enabling
-                        customers to interact with customer advisors
-                        and AI-powered chatbots across Orange digital channels.
+                        Contributed to the evolution of Orange France's
+                        messaging platform, enabling customers to interact
+                        with advisors and AI-powered conversational experiences
+                        across Orange and Sosh digital channels.
                     </p>
+
+                    <div class="project-impact">
+
+                        <div>
+                            <strong>50+</strong>
+                            <span>conversational journeys</span>
+                        </div>
+
+                        <div>
+                            <strong>End-to-end</strong>
+                            <span>project contribution</span>
+                        </div>
+
+                    </div>
 
                 </div>
 
                 <div class="project-tech">
-                    Java · Angular · TypeScript · REST APIs · LivePerson
+                    Java · Angular · TypeScript · REST APIs · LivePerson · Jira
                 </div>
 
             </article>
@@ -359,15 +460,19 @@
 
             <article class="project">
 
-                <div class="project-number">
-                    02
+                <div class="project-top">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <p class="project-category">
+                        ORANGE · MODERNIZATION
+                    </p>
+
                 </div>
 
                 <div>
-
-                    <p class="project-category">
-                        ORANGE · APPLICATION MODERNIZATION
-                    </p>
 
                     <h3>
                         Billing Platform
@@ -382,7 +487,7 @@
                 </div>
 
                 <div class="project-tech">
-                    Angular · JavaScript · TypeScript · Spring Core · REST · Git
+                    Angular · JavaScript · TypeScript · Spring Core · Git
                 </div>
 
             </article>
@@ -392,15 +497,19 @@
 
             <article class="project">
 
-                <div class="project-number">
-                    03
+                <div class="project-top">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <p class="project-category">
+                        UNIVERSITY PROJECT
+                    </p>
+
                 </div>
 
                 <div>
-
-                    <p class="project-category">
-                        FINAL YEAR PROJECT
-                    </p>
 
                     <h3>
                         Indafri
@@ -426,9 +535,9 @@
 </section>
 
 
-<!-- =========================
+<!-- =========================================================
      SKILLS
-========================= -->
+========================================================= -->
 
 <section id="skills" class="section section-soft">
 
@@ -442,15 +551,19 @@
 
         <div class="skills">
 
+
             <div class="skill-group">
 
+                <span class="skill-number">01</span>
+
                 <h3>
-                    Development
+                    Business Analysis
                 </h3>
 
                 <p>
-                    Java · Spring Boot · Angular · TypeScript
-                    · JavaScript · REST APIs
+                    Requirements analysis · Functional specifications ·
+                    Stakeholder coordination · Business needs ·
+                    Process understanding · User stories
                 </p>
 
             </div>
@@ -458,13 +571,16 @@
 
             <div class="skill-group">
 
+                <span class="skill-number">02</span>
+
                 <h3>
-                    Delivery
+                    Project & Agile Delivery
                 </h3>
 
                 <p>
-                    Git · Jenkins · Maven · Jira · Postman
-                    · Agile · Scrum
+                    Project coordination · Agile · Scrum · Jira ·
+                    Prioritization · Testing · Deployment ·
+                    Cross-functional collaboration
                 </p>
 
             </div>
@@ -472,13 +588,16 @@
 
             <div class="skill-group">
 
+                <span class="skill-number">03</span>
+
                 <h3>
-                    Business & Support
+                    Application Support
                 </h3>
 
                 <p>
-                    Requirements analysis · Stakeholder coordination
-                    · Incident management · Root cause analysis
+                    Incident management · Production support ·
+                    Root cause analysis · Troubleshooting ·
+                    Continuous improvement
                 </p>
 
             </div>
@@ -486,15 +605,30 @@
 
             <div class="skill-group">
 
+                <span class="skill-number">04</span>
+
                 <h3>
-                    Training
+                    Technology & AI
                 </h3>
 
                 <p>
-                    OCP Java SE 11 — In progress · Docker · Agile
+                    Java · Spring · Angular · TypeScript · JavaScript ·
+                    REST APIs · Git · Jenkins · Postman ·
+                    Generative AI fundamentals
                 </p>
 
             </div>
+
+        </div>
+
+
+        <div class="skills-note">
+
+            <span>Currently developing</span>
+
+            <strong>
+                AI & Generative AI · ITIL 4 · Java Certification
+            </strong>
 
         </div>
 
@@ -503,9 +637,9 @@
 </section>
 
 
-<!-- =========================
+<!-- =========================================================
      CONTACT
-========================= -->
+========================================================= -->
 
 <section id="contact" class="contact">
 
@@ -521,8 +655,8 @@
         </h2>
 
         <p class="contact-text">
-            I'm open to opportunities in Software Engineering,
-            Business Analysis and IT projects.
+            Open to opportunities in Software Engineering,
+            Business Analysis, IT projects and application support.
         </p>
 
 
@@ -538,8 +672,10 @@
             </a>
 
 
+            <!-- Replace with your real LinkedIn URL -->
+
             <a
-                href="https://www.linkedin.com/"
+                href="YOUR_LINKEDIN_URL"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="contact-link"
@@ -550,14 +686,16 @@
             </a>
 
 
+            <!-- Replace with your real GitHub URL -->
+
             <a
-                href="https://github.com/"
+                href="YOUR_GITHUB_URL"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="contact-link"
             >
                 <span>GitHub</span>
-                <strong>View my code</strong>
+                <strong>View my projects</strong>
                 <span class="arrow">↗</span>
             </a>
 
@@ -572,13 +710,12 @@
 
 </section>
 
-
 </main>
 
 
-<!-- =========================
+<!-- =========================================================
      FOOTER
-========================= -->
+========================================================= -->
 
 <footer>
 
@@ -589,7 +726,7 @@
         </span>
 
         <span>
-            Software Engineer · Portfolio
+            Software Engineer · Business & Technology
         </span>
 
         <span>
